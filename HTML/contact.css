@@ -209,7 +209,7 @@ header {
 @media (max-width: 950px) {
   .main-container {
     width: 90%;
-    padding: 30px 40px 40px 35px;
+    padding: 60px 40px 40px 35px;
   }
 
   .main-container .content .right {
@@ -243,21 +243,4 @@ header {
     width: 100%;
     margin-left: 0;
   }
-}
-
-footer {
-  height: 10px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
-  font-weight: bold;
-  padding: 2rem 9%;
-  text-align: center;
-  z-index: 1000;
-  box-shadow: 0.5rem 1rem 0 rgba(0.1, 0.1, 0.1, 0);
 }

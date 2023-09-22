@@ -10,6 +10,14 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: auto;
+}
+
 .wrapper {
   width: auto;
   padding: 2rem 9%;
@@ -69,14 +77,6 @@ header {
   .col {
     width: 100%;
   }
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: auto;
 }
 
 .wrapper p {
@@ -140,5 +140,21 @@ body {
 @media (max-width: 991px) {
   html {
     font-size: 65%;
+  }
+  .wrapper {
+    width: auto;
+    padding: 15rem 9%;
+  }
+
+  .kim-image {
+    padding-bottom: 20px;
+  }
+
+  .wrapper h1 {
+    padding-top: 30px;
+  }
+  .wrapper h1,
+  h2 {
+    text-align: center;
   }
 }

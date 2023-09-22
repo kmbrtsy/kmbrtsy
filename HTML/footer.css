@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 9%;
+  z-index: 1000;
+  background: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.socialIcons a:hover {
+  background-color: pink;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover img {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
