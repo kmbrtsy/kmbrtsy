@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 30px;
+  color: #333;
+  font-weight: bolder;
+  font-family: "Radley";
+  font-style: italic;
+  text-decoration: none;
+}
+
+.col {
+  float: none;
+  width: 50%;
+  padding: 10px;
+}
+
+.logo span {
+  color: #ff69b4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 2px;
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #666;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #eaacb4;
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./images/kimbg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content {
+  max-width: 50rem;
+}
+
+.home .content h2 {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bolder;
+  color: #ff69b4;
+}
+
+.home .content h3 {
+  font-size: 3.5rem;
+  font-family: "Radley";
+}
+
+.home .content h4 {
+  font-size: 4rem;
+  font-family: "Radley";
+}
+
+.home .content span {
+  font-style: italic;
+  color: #ff69b4;
+}
+
+.home .content p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 65%;
+  }
+  .home {
+    width: 100%;
+  }
+}
