@@ -8,8 +8,7 @@
 }
 body {
   padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 10%;
+  background: pink;
   display: block;
   min-height: 100%;
   width: 100%;
@@ -73,11 +72,12 @@ header {
     width: 100%;
   }
 }
+
 .main-container {
   width: 85%;
   background: #fff;
   border-radius: 6px;
-  padding: 20px 60px 30px 40px;
+  padding: 20px 60px 100px 100px;
 }
 
 .main-container form {
