@@ -1,0 +1,188 @@
+body {
+    background-color: #FDF7E4;
+    margin: 0; 
+    padding: 0;
+  }
+
+  /*---------- Header.css ----------*/
+ .header {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .header .header-left {
+    display: flex;
+    margin-left: 5%;
+  }
+  
+  .header .header-left .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header .header-center {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 10%;
+  }
+  
+  .header .header-center Button {
+    color: red;
+  }
+
+  /*---------- End of Header.css ----------*/
+
+
+
+  /*---------- HeroPage.css ----------*/
+
+  .flex-container {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+  
+  .hero-container .headings {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+    margin-left: 5%;
+  }
+
+  .hero-container .headings h1,
+  .hero-container .headings h5,
+  .hero-container .headings h7 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .photo {
+    flex-shrink: 0; 
+    width: 40%;
+    margin-left: 20%;
+  }
+
+  .social-icons{
+    display: flex;
+    gap: 5px;
+    margin-top: 80px;
+    margin-bottom: 10%;
+  }
+
+  .social-icons button{
+    border-radius: 50%;
+    transition: background-color 0.3s;
+
+    background-color: #2196f3;
+  }
+
+  .social-icons button:hover{
+    background-color: #ff4081;
+  }
+
+  /*---------- End of HeroPage.css ----------*/
+
+
+
+  /*---------- AboutSection.css ----------*/
+
+  .about-container {
+    background-color: #FAEED1;
+    height: 700px;
+    margin-top: 25vh;
+    display: flex;
+  }
+  
+  .about-content {
+    display: flex;
+  }
+  
+  .picture {
+    flex: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .picture img {
+    width: 450px;
+    height: 550px;
+    margin-left: 18%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .description {
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: 20px;
+  }
+  
+
+  /*---------- End of AboutSection.css ----------*/
+
+
+  /*---------- ProjectSection.css ----------*/
+
+  .project-item {
+  cursor: pointer;
+  margin: 10%;
+}
+
+.css-zow5z4-MuiGrid-root {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.css-zow5z4-MuiGrid-root > .MuiGrid-item {
+  margin-left: 90px;
+  flex: 0 0 auto;
+}
+
+.sample-projects{
+  color: #a7a7a7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.horizontal-line-left{
+  flex: 1;
+  border-top: 2px solid #a7a7a7;
+  margin-left: 5%;
+  margin-right: 20px;
+}
+
+.horizontal-line-right{
+  flex: 1;
+  border-top: 2px solid #a7a7a7;
+  margin-left: 20px;
+  margin-right: 5%;
+}
+
+.works-title{
+  font-size: 18px;
+  font-family: 'poppins, serif';
+  font-weight: bold;
+}
+
+
+.project-details {
+  padding: 10px; 
+  background-color: #f0f0f0; 
+  text-align: center; 
+}
+
+.project-item-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+  /*---------- End of ProjectSection.css ----------*/
