@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSection = () => {
   const handleDownload = () => {
-    const pdfFile = `public/My-Resume.pdf`;
+    const pdfFile = './public/My-Resume.pdf';
     const anchor = document.createElement('a');
     anchor.href = pdfFile;
     anchor.download = 'Kimmy-Resume.pdf';
